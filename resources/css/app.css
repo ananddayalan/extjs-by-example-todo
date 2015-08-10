@@ -1,0 +1,61 @@
+.hidden {
+    visibility: hidden;
+}
+
+.row:hover .hidden {
+    visibility: visible;
+    color: white;
+}
+
+.btn-orange,
+.btn-orange.x-btn-focus.x-btn-default-small {
+    background-color: #F5923E;
+    border-color: #F5923E;
+    box-shadow: none;
+}
+
+.btn-orange.x-btn-over.x-btn-default-small {
+    border-color: #BE702E;
+    background-color: #BE702E;
+}
+
+.row:hover {
+    background-color: #92A7B1;
+    color: white;
+    font-weight: 800;
+}
+
+.row a,
+.row div {
+    background-color: transparent;
+    /*    color: black;*/
+}
+
+.row a:hover,
+.row div:hover {
+    color: white;
+}
+
+.row,
+.task-entry-panel {
+    padding: 10px;
+    border-bottom: none;
+}
+
+.x-form-text-default {
+    height: 30px;
+}
+
+.task-entry-panel .x-btn-default-small {
+    height: 32px;
+}
+
+.task-entry-panel {
+    background-color: #69787F;
+    padding-bottom: 20px;
+}
+
+.main {
+    background-color: #EEEEF1;
+    padding: 20px;
+}
