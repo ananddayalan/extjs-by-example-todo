@@ -51,7 +51,17 @@ Ext.define('ToDo.view.toDoList.ToDoListController', {
                     xtype: 'checkbox',
                     boxLabel: record.get('desc'),
                     checked: record.get('done'),
-                    flex: 1
+                    flex: 1,
+                    listeners: {
+                        change: {
+                            fn: function(component, newValue, oldValue) {
+                                var store = this.getViewModel().data.todos;
+                                record.set('done', newValue);
+                                store.sync();
+                            },
+                            scope: this
+                        }
+                    }
                 },
                 {
                     html: '<a class="hidden" href="#"><i taskId="' + record.get('id') + '" class="fa fa-times"></i></a>',
