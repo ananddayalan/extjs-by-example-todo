@@ -1,10 +1,10 @@
-Ext.define('ToDo.view.toDoList.ToDoList', {
+Ext.define('ToDo.view.ToDoList.ToDoList', {
     extend: 'Ext.panel.Panel',
 
     /* Marks these are required classes to be to loaded before loading this view */
     requires: [
-        'ToDo.view.toDoList.ToDoListController',
-        'ToDo.view.toDoList.ToDoListModel'
+        'ToDo.view.ToDoList.ToDoListController',
+        'ToDo.view.ToDoList.ToDoListModel'
     ],
        
     xtype: 'app-todoList',

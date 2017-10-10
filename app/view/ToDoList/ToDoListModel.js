@@ -1,4 +1,4 @@
-Ext.define('ToDo.view.toDoList.ToDoListModel', {
+Ext.define('ToDo.view.ToDoList.ToDoListModel', {
     extend: 'Ext.app.ViewModel',
     alias: 'viewmodel.todoList',
     stores: {
