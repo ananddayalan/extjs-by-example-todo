@@ -1,7 +1,7 @@
-Ext.define('ToDo.view.toDoList.ToDoListController', {
+Ext.define('ToDo.view.ToDoList.ToDoListController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.todoList',
-    views: ['ToDo.view.toDoList.ToDoList'],
+    views: ['ToDo.view.ToDoList.ToDoList'],
 
     init: function () {
         var me = this;

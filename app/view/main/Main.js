@@ -2,7 +2,7 @@ Ext.define('ToDo.view.main.Main', {
     extend: 'Ext.panel.Panel',
     
     requires: [
-        'ToDo.view.toDoList.ToDoList'
+        'ToDo.view.ToDoList.ToDoList'
     ],
     autoScroll: true,
     xtype: 'app-main',
